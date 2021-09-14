@@ -1,6 +1,6 @@
 [Setup]
 AppName=CBM-Transfer
-AppVersion=1.10
+AppVersion=1.22a
 DefaultDirName={pf64}\CBM Transfer
 DefaultGroupName=CBMXfer
 UninstallDisplayIcon={app}\CBMXfer.exe
@@ -35,6 +35,7 @@ Source: "cbmxfer\font-c64.bmp"; DestDir: "{app}"
 Source: "cbmxfer\picformats.txt"; DestDir: "{app}"
 Source: "cbmxfer\CBMXfer.txt"; DestDir: "{app}"
 Source: "cbmxfer\c1541.exe"; DestDir: "{app}"
+Source: "cbmxfer\SDL2.dll"; DestDir: "{app}"
 Source: "cbmxfer\CBMXfer.exe"; DestDir: "{app}"
 
 Source: "cbmxfer\comdlg32.ocx"; DestDir: "{sys}"; Flags: uninsneveruninstall sharedfile regserver
